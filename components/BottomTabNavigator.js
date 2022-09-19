@@ -10,8 +10,10 @@ export default class BottomTabNavigator extends Component {
     render(){
         return(
             <NavigationContainer>
+                <tab.Navigator>
                 <tab.Screen name="Transação" component={TransactionScreen}/>
                 <tab.Screen name="Pesquisa" component={SearchScreen}/>
+                </tab.Navigator>
             </NavigationContainer>
         )
     }

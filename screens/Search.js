@@ -1,13 +1,13 @@
 import React, {Component} from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from 'react-native';
 
 export default class SearchScreen extends Component {
     render(){
         return(
-            <View style = {styles.container}>
-                <Text style = {styles.text}>Tela de Pesquisa</Text>
+            <View style={styles.container}>
+                <Text style = {styles.text}> Tela de Pesquisa </Text>
             </View>
-        )
+        );
     }
 }
 
@@ -19,7 +19,10 @@ const styles = StyleSheet.create({
         backgroundColor: "#5653D4"
     },
     text: {
-        color: "#FFF",
+        color: "#fff",
         fontSize: 30
     }
 })
+
+
+
